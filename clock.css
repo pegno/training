@@ -1,0 +1,23 @@
+body {
+  color: #FFF;
+  -webkit-app-region: drag;
+  -webkit-user-select: none;
+  font-family: "Helvetica Neue";
+  font-weight: 100;
+}
+
+body * {
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#digital_clock {
+  background-color: rgba(0, 0, 0, 0.70);
+  width: 96px;
+  height: 96px;
+  border-radius: 48px;
+  margin: 0 auto;
+  line-height: 96px;
+  text-align: center;
+  font-size: 24px;
+}
